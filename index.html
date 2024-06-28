@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suryansh Mani -Web Resume</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://docs.google.com/document/d/1lOXWAJrFHJx4A2KwIV-u18R9ix6lgzHtE9PMfFp6UV0/edit?usp=sharing">My Resume <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownContact" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownContact">
+                        <a class="dropdown-item" href="#" onclick="copyToClipboard('email')">Email ID</a>
+                        <a class="dropdown-item" href="#" onclick="copyToClipboard('phone')">Phone Number</a>
+                        
+                    </div>
+                </li>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container text-center mt-5">
+        <div class="title-container">
+            <h1 class="main-title">Suryansh Mani</h1>
+            <p class="sub-title">Learning Enthusiast</p>
+        </div>
+        <div class="d-flex justify-content-center mt-4">
+            <div class="photo-container position-relative">
+                <img src="king.jpg" alt="Your Name" class="profile-photo img-fluid">
+                <div class="about-overlay">
+                    <div class="about-content">
+                        <p>As a second-year engineering student, I bring a unique blend of technical and business skills. Proficient in Python, C++, and Java, I have experience in machine learning, data analysis, and software development. Additionally, I possess strong abilities in strategic planning, market analysis, and financial modeling. My analytical and communication skills enable effective collaboration with diverse teams. I am eager to apply my interdisciplinary expertise in an internship role to contribute to your team's success.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects-container mt-5">
+            <h2>Some of my projects</h2>
+            <div class="card-deck">
+                <div class="card project-card position-relative">
+                    <img src="baaahu.jpeg" class="card-img-top" alt="Project 1">
+                    <div class="card-body overlay">
+                        <h5 class="card-title">Movie Recommendation System</h5>
+                        <p class="card-text">Building a user friendly movie recommendation system using our own custom database which recommends the user movies based on favourite genres on the website.</p>
+                    </div>
+                </div>
+                <div class="card project-card position-relative">
+                    <img src="bhalllaa.png" class="card-img-top" alt="Project 2">
+                    <div class="card-body overlay">
+                        <h5 class="card-title">Heart Rate Disease Perdiction</h5>
+                        <p class="card-text">Using Machine Learning to develop a heart disease prediction system which uses a dataset for prediction along with tracking the accuracy of various models</p>
+                    </div>
+                </div>
+                <div class="card project-card position-relative">
+                    <img src="katapp.png" class="card-img-top" alt="Project 3">
+                    <div class="card-body overlay">
+                        <h5 class="card-title">Smart Boiling</h5>
+                        <p class="card-text">Developing a system which uses ultrasonic sensors for detection and uses arduiono for preventing spillage of liquids during the process of boiling.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonials-container mt-5">
+            <h2>How I can be a valuable asset to your organization</h2>
+            <div id="carouselTestimonials" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p>Technical Expertise: Skilled in developing efficient algorithms and implementing machine learning models.</p>
+                        
+                    </div>
+                    <div class="carousel-item">
+                        <p>Continuous Learning: Committed to staying updated with the latest technologies and industry trends.</p>
+                        
+                    </div>
+                    <div class="carousel-item">
+                        <p>Adaptability: Quickly adapts to new environments and technologies, ensuring seamless integration and productivity.</p>
+                        
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselTestimonials" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselTestimonials" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer bg-black text-white mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>&copy; Suryansh Mani. All rights reserved.</p>
+                </div>
+                <div class="col text-right">
+                    <a href="www.linkedin.com/in/suryansh-mani-b4311625b" class="text-white">LinkedIn</a> |
+                    <a href="https://github.com/SuryanshMani2704" class="text-white">GitHub</a> |
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function copyToClipboard(type) {
+            let text = '';
+            if (type === 'email') {
+                text = 'suryanshbest@gmail.com';
+            } else if (type === 'phone') {
+                text = '+919370185986';
+            }
+            navigator.clipboard.writeText(text)
+                .then(() => {
+                    alert(`Copied ${type === 'email' ? 'email' : 'phone number'} to clipboard: ${text}`);
+                })
+                .catch(err => {
+                    console.error('Failed to copy', err);
+                });
+        }
+    </script>
+</body>
+</html>
